@@ -18,6 +18,14 @@ namespace X.Model
         /// 掉落物品列表
         /// </summary>
         public List<BaseItem> DropoutItemList;
+        /// <summary>
+        /// 当前buff/debuff列表
+        /// </summary>
+        public List<BaseSkill> EffectsList;
 
+        /// <summary>
+        /// 是否需要buff检测
+        /// </summary>
+        public bool NeedBuffCheck;
     }
 }

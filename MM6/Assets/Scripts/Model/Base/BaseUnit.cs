@@ -67,23 +67,6 @@ namespace X.Model
         public int MaxMP;
         #endregion
 
-        #region 单位即时属性
-
-        /// <summary>
-        /// 当前血量
-        /// </summary>
-        public int HP;
-        /// <summary>
-        /// 当前蓝量
-        /// </summary>
-        public int MP;
-        /// <summary>
-        /// 当前坐标
-        /// </summary>
-        public Vector3 MyPosition;
-        #endregion
-
-
         /// <summary>
         /// 战斗中的目标单位
         /// </summary>
@@ -100,5 +83,52 @@ namespace X.Model
         /// 拥有的物品
         /// </summary>
         public List<BaseItem> MyGoods;
+        /// <summary>
+        /// 是否需要普通检测
+        /// </summary>
+        public bool NormalkCheck;
+
+
+        #region 单位即时属性
+
+        /// <summary>
+        /// 当前血量
+        /// </summary>
+        public int HP;
+        /// <summary>
+        /// 当前蓝量
+        /// </summary>
+        public int MP;
+        /// <summary>
+        /// 当前坐标
+        /// </summary>
+        public Vector3 MyPosition;
+        /// <summary>
+        /// 最后一次攻击时间
+        /// </summary>
+        public float LastAttackTime;
+        /// <summary>
+        /// 攻击CD时间
+        /// </summary>
+        public float AttackCDTime;
+        /// <summary>
+        /// 攻击CD
+        /// </summary>
+        public bool AttackCD;
+        /// <summary>
+        /// 预备技能
+        /// </summary>
+        public BaseSkill ReadSkill;
+        /// <summary>
+        /// 攻击CD的修正时间
+        /// </summary>
+        public float Correct_AttackTime;
+        #endregion
+
+        public void Attack()
+        {
+            AttackCD = false;
+            LastAttackTime = Time.time;
+        }
     }
 }

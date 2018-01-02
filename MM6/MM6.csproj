@@ -78,12 +78,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Controller\GameThread\UnitAttackThread.cs" />
     <Compile Include="Assets\Scripts\General\GeneralData.cs" />
     <Compile Include="Assets\Scripts\General\PublicEnum.cs" />
+    <Compile Include="Assets\Scripts\General\Singleton.cs" />
     <Compile Include="Assets\Scripts\Model\Base\BaseItem.cs" />
     <Compile Include="Assets\Scripts\Model\Base\BaseSkill.cs" />
     <Compile Include="Assets\Scripts\Model\Base\BaseUnit.cs" />
     <Compile Include="Assets\Scripts\Model\Monster.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Read.txt" />
