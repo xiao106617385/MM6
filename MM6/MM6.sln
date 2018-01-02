@@ -1,12 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MM6", "MM6.csproj", "{80B3B237-3534-8159-9DE3-F21C29E0663E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B3B237-3534-8159-9DE3-F21C29E0663E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B3B237-3534-8159-9DE3-F21C29E0663E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B3B237-3534-8159-9DE3-F21C29E0663E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B3B237-3534-8159-9DE3-F21C29E0663E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
