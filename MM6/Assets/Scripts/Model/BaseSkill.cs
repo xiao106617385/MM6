@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- *  物品基类
- */ 
+ *  技能基类
+ */
 
-public class BaseItem
+public class BaseSkill
 {
     /// <summary>
     /// ID
@@ -21,11 +21,11 @@ public class BaseItem
     /// </summary>
     public string Description;
     /// <summary>
-    /// 最大堆叠数量
+    /// 花费
     /// </summary>
-    public int MaxNumber;
+    public int Cost;
     /// <summary>
-    /// 物品功效
+    /// 技能功效
     /// </summary>
-    public List<GeneralData<ItemEffectEnum, int>> ItemEffects;
+    public List<GeneralData<SkillEffect, int>> SkillEffects;
 }

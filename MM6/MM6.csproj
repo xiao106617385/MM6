@@ -78,7 +78,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\General\GeneralData.cs" />
+    <Compile Include="Assets\Scripts\General\PublicEnum.cs" />
     <Compile Include="Assets\Scripts\Model\BaseItem.cs" />
+    <Compile Include="Assets\Scripts\Model\BaseSkill.cs" />
     <Compile Include="Assets\Scripts\Model\BaseUnit.cs" />
   </ItemGroup>
   <ItemGroup>
