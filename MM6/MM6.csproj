@@ -80,9 +80,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\General\GeneralData.cs" />
     <Compile Include="Assets\Scripts\General\PublicEnum.cs" />
-    <Compile Include="Assets\Scripts\Model\BaseItem.cs" />
-    <Compile Include="Assets\Scripts\Model\BaseSkill.cs" />
-    <Compile Include="Assets\Scripts\Model\BaseUnit.cs" />
+    <Compile Include="Assets\Scripts\Model\Base\BaseItem.cs" />
+    <Compile Include="Assets\Scripts\Model\Base\BaseSkill.cs" />
+    <Compile Include="Assets\Scripts\Model\Base\BaseUnit.cs" />
+    <Compile Include="Assets\Scripts\Model\Monster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Read.txt" />

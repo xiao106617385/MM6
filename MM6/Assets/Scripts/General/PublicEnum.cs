@@ -71,7 +71,14 @@ public enum ItemEffectEnum
 /// <summary>
 /// 技能功效
 /// </summary>
-public enum SkillEffect
+public enum SkillEffectEnum
+{
+
+}
+/// <summary>
+/// 技能功效持续类型
+/// </summary>
+public enum EffectKeepTypeEnum
 {
 
 }
